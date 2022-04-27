@@ -1,0 +1,14 @@
+import java.util.*;
+public class Arraylist {
+
+public static void main(String[] args) {
+      ArrayList<String> arraylist= new ArrayList<String>();
+      arraylist.add("python");
+      arraylist.add("c");
+      arraylist.add("java");
+      arraylist.add("oracle");
+System.out.println(arraylist);
+arraylist.remove(2);
+System.out.println(arraylist);
+}
+}
