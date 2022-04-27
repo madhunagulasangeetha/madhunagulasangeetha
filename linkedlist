@@ -1,0 +1,14 @@
+import java.util.*;
+public class LinkedlistDemo {
+   public static void main(String[] args) {
+       LinkedList <String> linkedlist= new LinkedList<String>();
+       linkedlist.add("python");
+       linkedlist.add("c");
+       linkedlist.add("java");
+       linkedlist.add("oracle");
+       System.out.println(linkedlist);
+       linkedlist.remove(2);
+       System.out.println(linkedlist);
+       System.out.println(linkedlist.getLast());
+   }
+}
